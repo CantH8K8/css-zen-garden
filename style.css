@@ -1,5 +1,6 @@
 /* Global */
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 
 body {
@@ -8,3 +9,15 @@ body {
 }
 
 /* Typography */
+
+h1, h2, h3, h4, h6 {
+    font-family: 'Pacifico' cursive;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
