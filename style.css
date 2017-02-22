@@ -1,3 +1,10 @@
-body{
+/* Global */
+
+
+
+body {
     background: lavender;
+    border: dotted gray 4px;
 }
+
+/* Typography */
