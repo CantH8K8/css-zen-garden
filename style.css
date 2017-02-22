@@ -4,7 +4,8 @@
 
 
 body {
-    border: dotted gray 4px;
+    background: lavender;
+   font-family: 'Cinzel', serif;
 }
 
 /* Typography */
@@ -19,4 +20,13 @@ h1 {
 
 h2 {
     font-size: 2em;
+}
+
+/* Positioning */
+
+header {
+    background: lightcyan;
+    position: fixed;
+    width: 100%;
+    
 }
