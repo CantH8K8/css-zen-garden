@@ -1,32 +1,56 @@
 /* Global */
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Prata');
 
 
 body {
     background: lavender;
-   font-family: 'Cinzel', serif;
+   font-family: 'Prata', serif;
 }
 
 /* Typography */
 
 h1, h2, h3, h4, h6 {
-    font-family: 'Pacifico' cursive;
+    font-family: 'Amatic SC' cursive;
 }
 
 h1 {
+    text-align: right;
     font-size: 2em;
 }
 
 h2 {
+    text-align: right;
     font-size: 2em;
 }
 
 /* Positioning */
 
 header {
-    background: lightcyan;
+    background: rgba(224, 255, 255, 0.68);
     position: fixed;
-    width: 100%;
+    width: 50%;  
+}
+
+/* Layout */
+
+.page-wrapper {
+    margin: 0 auto;
+    width: 90%;    
+}
+
+#zen-intro {
+    background: green;
+}
+
+#zen-supporting {
     
 }
+
+.sidebar {
+    
+}
+
+/* Media Queries */
