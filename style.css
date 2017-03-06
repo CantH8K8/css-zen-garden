@@ -3,4 +3,42 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Prata');
-/* color scheme - #0FD0F - #25193E - #482F82 - #764ECF - #A38CE2 - #ccbaff - Shades of purple */
+
+/*  My awesome Zen Garden site */
+* {
+    box-sizing: border-box;
+}
+
+/* Color Palette #0FD0F - #25193E - #482F82 - #764ECF - #A38CE2 - #ccbaff - Shades of purple */
+
+/* Layout */
+
+/* Footer Nav*/
+
+footer {
+    background: lightcyan;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    display: inline;
+    padding: 1em;
+    
+}
+
+/* First Frame */
+
+footer a {
+    color: lightcyan;
+    text-decoration: none;
+    transition: hover 1s;
+}
+
+/* Last Frame */
+
+footer:hover a {
+    color: darkblue;
+
+    
+}
