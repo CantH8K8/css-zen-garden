@@ -4,86 +4,43 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Prata');
 
-
-body {
-    background: lavender;
-   font-family: 'Prata', serif;
+* {
+    box-sizing: border-box;
 }
 
 /* Typography */
 
-h1, h2, h3, h4, h6 {
-    font-family: 'Amatic SC' cursive;
-}
-
-h1 {
-    text-align: right;
-    font-size: 2em;
-}
-
-h2 {
-    text-align: right;
-    font-size: 2em;
-}
-
 /* Positioning */
-
-header {
-    background: rgba(224, 255, 255, 0.68);
-    position: fixed;
-    width: 50%;
-
-    
-}
 
 /* Layout */
 
-.page-wrapper {
-    margin: 0 auto;
-    width: 90%;
+/* --body */
+body {
+    background: lavender;
+}
+
+#design-selection.design-selection {
+    background: gray;
     
 }
 
-#zen-intro {
-    background: rgba(251, 152, 255, 0.36);
+/* --footer */
+
+footer {
+    background: lightcyan;
+    display: flex;
+    justify-content: space-between;
 }
 
-#zen-supporting {
-    background: rgba(158, 62, 255, 0.36);
+footer a {
+    text-decoration: none;
+    color: darkblue;
+    text-indent: -1000px;
+
     
 }
 
-/* Media Queries */
-
-/* Mobile: 320px = 20em */
-@media screen and (min-width: 20em) { 
-
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
-/* end mobile */
-}
-
-/* Tablet:  768px = 160em */
-@media screen and (min-width: 48em)  {
-
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
-/* end tablet*/
-}
-
-/* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
-/* end desktop */
+footer:hover a {
+    text-indent: 0px;
+    transition: text-indent 1.5s;
 }
