@@ -3,44 +3,4 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 @import url('https://fonts.googleapis.com/css?family=Prata');
-
-* {
-    box-sizing: border-box;
-}
-
-/* Typography */
-
-/* Positioning */
-
-/* Layout */
-
-/* --body */
-body {
-    background: lavender;
-}
-
-#design-selection.design-selection {
-    background: gray;
-    
-}
-
-/* --footer */
-
-footer {
-    background: lightcyan;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer a {
-    text-decoration: none;
-    color: darkblue;
-    text-indent: -1000px;
-
-    
-}
-
-footer:hover a {
-    text-indent: 0px;
-    transition: text-indent 1.5s;
-}
+/* color scheme - #0FD0F - #25193E - #482F82 - #764ECF - #A38CE2 - #ccbaff - Shades of purple */
